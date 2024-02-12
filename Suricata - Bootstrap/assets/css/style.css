@@ -1,0 +1,80 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.bg-pink {
+    background-color: #E83E8C;
+}
+
+h1 {
+    margin: 0px;
+    padding: 75px 0;
+    font-weight: 700;
+    font-size: 60px;
+    color: #707070;
+}
+
+.card {
+    margin-left: 35px;
+    width: 80%;
+}
+
+main h5 {
+    font-weight: 700;
+    font-size: 17px;
+    color: #373A3C;
+}
+
+main p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #373A3C;
+}
+
+main a {
+    font-weight: 400;
+    font-size: 11px;
+    text-decoration: none;
+}
+
+.bg-aqua {
+    background-color: #17A2B8;
+    color: #fff;
+    height: 170px;
+}
+
+.compra-tarjetas h3 {
+    margin: 0px;
+    display: inline-block;
+    padding-left: 96px;
+    padding-top: 60px;
+    font-weight: 700;
+    font-size: 40px;
+    width: 40%;
+}
+
+.icon-list {
+    display: inline-block;
+    padding-left: 170px;
+    padding-bottom: 50px;
+}
+
+.icon-list p {
+    margin: 0px;
+    display: inline-block;
+    padding-right: 20px;
+}
+
+footer {
+    padding: 34.425px 0;
+}
+
+footer img {
+    margin-bottom: 15px;
+}
+
+@media screen and (max-width: 1520px) {
+    .bg-aqua {
+        display: none;
+    }
+}

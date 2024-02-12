@@ -1,0 +1,47 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+main h5,
+p {
+    margin: 0px;
+}
+
+.bg-green {
+    background-color: #28A745;
+}
+
+h5 {
+    color: #000;
+    font-weight: 300;
+}
+
+h3 {
+    color: #FFFFFF;
+    font-weight: 500;
+    padding-bottom: 30px;
+}
+
+p {
+    color: #707070;
+    font-weight: 300;
+}
+
+.listado-precios {
+    border-top: 1px solid #F8F9FA;
+}
+
+.precio {
+    display: inline-block;
+    text-align: center;
+    padding-right: 5px;
+    padding-top: 20px;
+}
+
+.precio-dcto {
+    color: #28A745;
+    font-weight: 500;
+    display: inline-block;
+    text-align: right;
+    padding-top: 5px;
+}

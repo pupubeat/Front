@@ -1,0 +1,177 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px;
+}
+
+.oscuro {
+    background-color: black;
+    padding: 25.1px 0;
+}
+
+.oscuro ul {
+    margin: 0px;
+}
+
+.oscuro li {
+    display: inline-block;
+    margin-right: 57px;
+    vertical-align: middle;
+    font-size: 25px;
+}
+
+.oscuro a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.oscuro a:hover {
+    color: red;
+}
+
+.hero-section {
+    background-image: url("../img/bg-hero.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: right;
+    text-shadow: 0px 3px 6px #00000080;
+    opacity: 1;
+    padding: 8.83rem 0;
+    color: #fff;
+}
+
+.hero-section h1 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 197px;
+    margin-left: 197px;
+    font-weight: 800;
+    font-size: 60px;
+}
+
+.hero-section h2 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 197px;
+    margin-left: 197px;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+#ubicacion {
+    text-align: center;
+    padding: 12.22rem 0;
+}
+
+#ubicacion h2 {
+    font-weight: 700;
+    font-size: 45px;
+    margin: 0px;
+    padding-top: 48px;
+    padding-bottom: 18px;
+}
+
+#ubicacion p {
+    font-weight: 400;
+    font-size: 25px;
+    margin: 0px;
+    padding-left: 415px;
+    width: 45%;
+}
+
+.sweet-brown {
+    background-color: #A4452C;
+    color: #fff;
+    text-align: center;
+    padding: 76.1px 0;
+}
+
+.centrado {
+    display: inline-block;
+    width: 30%;
+}
+
+.charla-speaker {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.charla-speaker img {
+    width: 312px;
+}
+
+.charla-texto {
+    display: inline-block;
+    width: 45%;
+    vertical-align: middle;
+    text-align: left;
+}
+
+.charla-texto h2 {
+    font-weight: 700;
+    font-size: 45px;
+    margin: 0px;
+    padding-top: 9px;
+}
+
+.charla-texto h3 {
+    font-weight: 700;
+    font-size: 40px;
+    margin: 0px;
+}
+
+.charla-texto h4 {
+    font-weight: 400;
+    font-size: 33px;
+    margin: 0px;
+}
+
+.charla-texto h5 {
+    font-weight: 400;
+    font-size: 20px;
+    margin: 0px;
+}
+
+.charla-texto p {
+    font-weight: 400;
+    font-size: 25px;
+    margin: 0px;
+    padding: 13px 0;
+}
+
+#eventos {
+    padding: 12rem 0;
+    text-align: center;
+}
+
+#eventos h2 {
+    margin: 0px;
+    padding-bottom: 75px;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.evento {
+    display: inline-block;
+    padding: 3rem;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+#contacto {
+    text-align: center;
+    padding: 57.2px 0;
+}
+
+#contacto a {
+    padding-right: 1.6rem;
+}
+
+
+#contacto p {
+    color: #fff;
+    font-weight: 400;
+    font-size: 25px;
+    margin: 0px;
+    padding-top: 40px;
+}
