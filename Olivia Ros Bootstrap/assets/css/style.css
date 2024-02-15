@@ -1,0 +1,135 @@
+body {
+    font-family: "Raleway", sans-serif;
+}
+
+nav {
+    font-weight: 400;
+    font-size: 16px;
+    background-color: #373A3C;
+    padding: 22.775px 0px;
+}
+
+nav img {
+    padding-left: 100px;
+}
+
+.navi {
+    padding-right: 100px;
+}
+
+header {
+    background-image: url("..//img/bg-hero.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 630px;
+}
+
+.header-text {
+    display: inline-block;
+    margin-top: 95px;
+    margin-left: auto;
+    margin-right: 178px;
+    width: 40%;
+}
+
+.btn-outline-aqua {
+    border-color: #17A2B8;
+    color: #FFFFFF;
+}
+
+.btn-aqua {
+    background-color: #17A2B8;
+    color: #FFFFFF;
+}
+
+.header-text h1 {
+    font-weight: 700;
+    font-size: 70px;
+    color: #FFFFFF;
+}
+
+.header-text p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+
+}
+
+#about-me {
+    margin-top: 66px;
+}
+
+#about-me h2 {
+    margin: 0px;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+#about-me h5 {
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 35px
+}
+
+.iconos {
+    margin-top: 35px;
+    margin-inline: auto;
+    width: 80%
+}
+
+.iconos article {
+    padding-right: 5px;
+}
+
+#about-me p {
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 35px
+}
+
+#my-jobs {
+    margin-top: 66px;
+}
+
+#my-jobs h2 {
+    font-weight: 700;
+    font-size: 50px;
+    color: #FFFFFF;
+}
+
+.job-cards {
+    background-color: #17A2B8;
+}
+
+.job-cards img {}
+
+#contact {
+    margin: 50px 0;
+    margin-inline: auto;
+    width: 70%;
+}
+
+#contact h2 {
+    font-weight: 700;
+    font-size: 50px;
+}
+
+#contact p {
+    font-weight: 400;
+    font-size: 16px;
+    padding-top: 15px;
+}
+
+#contact label {
+    font-weight: 700;
+    font-size: 16px;
+}
+
+footer {
+    font-weight: 400;
+    font-size: 16px;
+    background-color: #0F0F0F;
+    color: #FFFFFF;
+    padding: 25px 0;
+}
