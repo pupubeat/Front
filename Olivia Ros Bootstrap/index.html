@@ -23,7 +23,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg" data-bs-theme="dark">
+    <nav class="navbar navbar-expand-lg fixed-top" data-bs-theme="dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
                 <img src="assets/img/logo.png" alt="logo">
@@ -49,11 +49,12 @@
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam a mauris id purus blandit dapibus.
                     Nunc at
                     enim et lacus porttitor tincidunt. Donec imperdiet augue nec aliquet sagittis.</p>
+                <div class="botones">
+                    <button type="button" class="btn btn-outline-aqua btn-trabajo">Trabajos</button>
+                    <button type="button" class="btn btn-aqua">Contacto</button>
+                </div>
             </div>
-            <div class="botones text-end">
-                <button type="button" class="btn btn-outline-aqua">Trabajos</button>
-                <button type="button" class="btn btn-aqua">Contacto</button>
-            </div>
+
         </div>
     </header>
     <section class="container text-center" id="about-me">
@@ -80,39 +81,39 @@
         </div>
     </section>
 
-    <section class="container job-cards" id="my-jobs">
+    <section class="container job-cards">
         <h2 class="text-center">Mis trabajos</h2>
-        <div class="row">
+        <div class="row card-group">
             <article class="col-12 col-md-4 col-sm-12 pb-5">
                 <div class="card">
-                    <img src="assets/img/card-1.jpg" class="card-img-top" alt="...">
+                    <img src="assets/img/card-1.jpg" class="card-img-top object-fit-cover" alt="asado">
                     <div class="card-body">
                         <h5 class="card-title">Asado en la Patagonia</h5>
                         <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam a mauris id
                             purus blandit dapibus.</p>
-                        <a href="#" class="btn btn-outline-aqua">Ver más</a>
+                        <a href="#" class="btn btn-outline-aqua2 btn-lg">Ver más</a>
                     </div>
                 </div>
             </article>
             <article class="col-12 col-md-4 col-sm-12 pb-5">
                 <div class="card">
-                    <img src="assets/img/card-2.jpg" class="card-img-top" alt="...">
+                    <img src="assets/img/card-2.jpg" class="card-img-top object-fit-cover" alt="papas">
                     <div class="card-body">
                         <h5 class="card-title">Papas del fin del mundo</h5>
                         <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam a mauris id
                             purus blandit dapibus.</p>
-                        <a href="#" class="btn btn-outline-aqua">Ver más</a>
+                        <a href="#" class="btn btn-outline-aqua2 btn-lg">Ver más</a>
                     </div>
                 </div>
             </article>
             <article class="col-12 col-md-4 col-sm-12 pb-5">
                 <div class="card">
-                    <img src="assets/img/card-3.jpg" class="card-img-top" alt="...">
+                    <img src="assets/img/card-3.jpg" class="card-img-top object-fit-cover" alt="salmon">
                     <div class="card-body">
                         <h5 class="card-title">Salmones de Alaska</h5>
                         <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam a mauris id
                             purus blandit dapibus.</p>
-                        <a href="#" class="btn btn-outline-aqua">Ver más</a>
+                        <a href="#" class="btn btn-outline-aqua2 btn-lg">Ver más</a>
                     </div>
                 </div>
             </article>
@@ -135,10 +136,12 @@
             </div>
             <div class="mb-3">
                 <label for="message-label" class="form-label">Mensaje</label>
-                <input type="message" class="form-control" id="message-label" placeholder="Escribe aquí tu mensaje">
+                <textarea class="form-control" id="message-label" rows="5"
+                    placeholder="Escribe aquí tu mensaje"></textarea>
+            </div>
             </div>
             <div class="text-end">
-                <button type="submit" class="btn btn-aqua">Enviar</button>
+                <button type="submit" class="btn btn-aqua btn-lg">Enviar</button>
             </div>
         </form>
     </section>
